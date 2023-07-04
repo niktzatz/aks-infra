@@ -38,7 +38,7 @@ spec:
               protocol: TCP      
           resources:
             limits:
-              cpu: "0.2"
+              cpu: "0.5"
               memory: "192Mi"
             requests:
               cpu: "0.1"
