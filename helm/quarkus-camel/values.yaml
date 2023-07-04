@@ -4,7 +4,7 @@
 
 
 #namespace: quarkus
-replicaCount: 30
+replicaCount: 2
 
 image:
   repository: registry.hub.docker.com/niktz/quarkus-camel:1.0.0
