@@ -38,10 +38,10 @@ spec:
               protocol: TCP      
           resources:
             limits:
-              cpu: "0.1"
+              cpu: "0.2"
               memory: "192Mi"
             requests:
-              cpu: "0.05"
+              cpu: "0.1"
               memory: "128Mi"    
       imagePullSecrets:
         {{ toYaml .Values.imagePullSecrets | indent 8 }}
